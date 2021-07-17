@@ -1,0 +1,9 @@
+wget -O NSPT/checkpoints/nyud-fcn32s-color-heavy.pth https://drive.google.com/u/0/uc?export=download&confirm=-2FH&id=1MKj6Dntzh7t45PxM4I0ixWaQtisAg9hy
+wget -O NSPT/checkpoints/channel_pruning.pth https://drive.google.com/u/0/uc?export=download&confirm=yyb5&id=1aaNqJ5D2A-vev3IZFv6dSkovuA3XwYsq
+wget -O NSPT/checkpoints/vgg16-00b39a1b.pth https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa3pqcEVZWW5VQnBQYXdJdnVEMVhTcllVOXJHQXxBQ3Jtc0tuNVFOVEkzMV9YVDJXS21QekgtVXFXRE5tSjdORzNqRHp5MUM3ZDM4R0Rxbjg4a1NCRjhCVlVIVnEtRGtPU0JHcDdiU3A5UW5fc2dpc2hnSHU0UVpiamMyYkdYZHF4R1hxTVJncjNramthT3JfdlhmOA&q=https%3A%2F%2Fweb.eecs.umich.edu%2F%7Ejustincj%2Fmodels%2Fvgg16-00b39a1b.pth
+wget -O NSPT/checkpoints/vgg19-d01eb7cb.pth https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTRLM1JiVmJIM1gtTnlNdjFGTzRGQVA4WmV2d3xBQ3Jtc0tuZ3VlUkEwV2RnNHRoZ1dabkloU0lNTktjbkNVT1N1VWZiOW5XQW04eHZnek1xSW52dnRPTENVNGpyajZ1ZDRsaGpld0ZPbE00WXlxdGNhdmo1OF9PR09XS1hXbE91MEtsTG1EbG0zRjNBdjEyN01EWQ&q=https%3A%2F%2Fweb.eecs.umich.edu%2F%7Ejustincj%2Fmodels%2Fvgg19-d01eb7cb.pth
+wget -O NSPT/checkpoints/nin_imagenet.pth https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa3RuR05Vd19CdE56XzdUMWJQQXRmZkJXZWJwQXxBQ3Jtc0tteDVHcldGOUowWTlzQWdRUjZYZDdyQVBXdzhNM3BtLWdTMmFEZ3JQLVFRMy0ybUhIUDlVVVhiUW9xd1hsdU81ZG5QVC1SUVZMdF9NQlFjTW5SU1FNenZDdUZBbC1LX2I0RFR3TUMxYkh0RlJ2Ry1Dcw&q=https%3A%2F%2Fraw.githubusercontent.com%2FProGamerGov%2Fpytorch-nin%2Fmaster%2Fnin_imagenet.pth
+
+git clone https://github.com/ProGamerGov/neural-style-pt.git
+
+pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 torchaudio===0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
